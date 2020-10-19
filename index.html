@@ -23,12 +23,27 @@
       <li>I also <a href="http://tech.lfborjas.com/">write about tech</a> sometimes.</li>
       <li>I've written a <a href="http://poetry.lfborjas.com/">few bits of poetry.</a></li>
       <li>And I've also written <a href="http://cuaderno.lfborjas.com/">some nonfiction.</a></li>
+      <li>And since 2009, I've been <a href="https://www.linkedin.com/in/lfborjas">working in software development</a> independently and for some neat companies.</li>
     </ul>
-    <h2 class="text-muted">Some tech projects of mine</h2>
+    <h2 class="text-muted">Some online projects of mine</h2>
     <p>Don't have that many, most of my 11 years in software have been spent working on proprietary code to pay my bills. I love learning though, check out that Github.</p>
     <ul>
       <li><a href="https://freenatalchart.xyz/">Freenatalchart.xyz</a>, a free resource for astrological charts, written in Haskell.</li>
       <li><a href="http://whatisaspic.com/">What is aspic?</a> — one of my favorite breakfast foods.</li>
+    </ul>
+    <h2 class="text-muted">Open Source</h2>
+    <ul>
+      <li><a href="https://hackage.haskell.org/package/swiss-ephemeris">Swiss Ephemeris</a>: Haskell bindings to the C 
+        <a href="https://www.astro.com/swisseph/swephinfo_e.htm">Swiss Ephemeris</a> library, exposes functions and types
+        useful for Horoscopy (I use it for <a href="https://freenatalchart.xyz">freenatalchart.xyz</a> to obtain planetary positions and calculate house cusps.)
+      </li>
+      <li><a href="https://hackage.haskell.org/package/timezone-detect">Timezone Detect</a>: Half Haskell bindings to the C
+        <a href="https://github.com/BertoldVdb/ZoneDetect">Zone Detect</a> library, half functions built on top of
+        <a href="https://archives.haskell.org/projects.haskell.org/time-ng/">Time NG</a> packages to
+        provide the ability to detect a Timezone based on coordinates, and convert local time in a
+        <a href="https://data.iana.org/time-zones/tz-link.html">Unix timezone</a> to UTC. (I also use this
+        in <a href="https://freenatalchart.xyz">freenatalchart.xyz</a> , to not depend on third-party services for timezone detection.)
+      </li>
     </ul>
 </body>
 
