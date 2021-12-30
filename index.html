@@ -28,7 +28,7 @@
     <li>And I've also written <a href="https://cuaderno.lfborjas.com/">some nonfiction.</a></li>
   </ul>
   <h2 class="text-muted">Projects</h2>
-  <p>Don't have that many, most of my 12 years in software have been spent working on proprietary code to pay my bills or move out of my hometown.
+  <p>Don't have that many, most of my <span id="jahre">12</span> years in software have been spent working on proprietary code to pay my bills or move out of my hometown.
     I love learning though, check out that Github.</p>
   <ul>
     <li><a href="https://freenatalchart.xyz/">Freenatalchart.xyz</a>, a free resource for astrological data and charts, written
@@ -58,6 +58,12 @@
       timezone detection.)
     </li>
   </ul>
+  <script>
+    (function(){
+      var jahre = document.getElementById("jahre");
+      jahre.innerText = (new Date().getFullYear() - 2009).toString(); 
+    })();
+  </script>
 </body>
 
 </html>
